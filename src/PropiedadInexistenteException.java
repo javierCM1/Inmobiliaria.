@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PropiedadInexistenteException {
+public class PropiedadInexistenteException extends Throwable {
+    public PropiedadInexistenteException(String mensaje) {
+        super(mensaje);
+    }
 }
